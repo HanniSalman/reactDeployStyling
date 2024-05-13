@@ -41,7 +41,6 @@ function App() {
                 <Route path=":postId" element={<Post/>}/>
             </Route>
             </Route>
-            
             <Route path="*" element={<PageNotFound/>}/>
         </Routes>
       </BrowserRouter>
